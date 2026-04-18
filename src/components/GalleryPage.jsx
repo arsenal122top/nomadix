@@ -41,17 +41,19 @@ function GalleryPage({
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.45, delay: index * 0.05 }}
               whileHover={{ y: -6 }}
-              className="overflow-hidden rounded-[2rem] border border-white/60 bg-white shadow-[0_18px_60px_rgba(15,23,42,0.08)]"
+              className="overflow-hidden rounded-[2rem] border border-white/60 bg-white shadow-[0_18px_60px_rgba(15,23,42,0.08)] sm:rounded-2xl"
             >
-              <div
-                className="h-80 bg-cover bg-center"
-                style={{ backgroundImage: `url(${tour.image})` }}
-              />
-              <div className="p-5">
-                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[var(--forest-primary)]">
+              <div className="relative h-80 bg-cover bg-center sm:h-48 md:h-56" style={{ backgroundImage: `url('${tour.image}')` }}>
+                {/* Название тур-компании поверх фото для мобильных */}
+                <div className="absolute left-4 bottom-4 bg-white/80 rounded-full px-3 py-1 text-xs font-bold text-[var(--forest-dark)] shadow sm:static sm:bg-transparent sm:rounded-none sm:p-0 sm:text-sm">
+                  {tour.company}
+                </div>
+              </div>
+              <div className="p-5 sm:p-3">
+                <p className="text-xs sm:text-sm font-semibold uppercase tracking-[0.18em] sm:tracking-[0.24em] text-[var(--forest-primary)]">
                   {tour.location}
                 </p>
-                <h3 className="mt-2 font-display text-2xl text-[var(--text-dark)]">
+                <h3 className="mt-1 sm:mt-2 font-display text-lg sm:text-2xl text-[var(--text-dark)]">
                   {tour.title[i18n.language]}
                 </h3>
               </div>
