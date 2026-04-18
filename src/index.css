@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+  --color-forest-primary: #6EAF57;
+  --color-forest-dark: #5A9644;
+  --color-forest-deep: #467834;
+  --color-forest-light: #8BCB72;
+  --color-leaf: #C7E2A9;
+  --color-snow: #F7F8F3;
+  --color-snow-soft: #EFF3E8;
+  --color-text-dark: #1C2B14;
+  --color-text-muted: #5A7A4A;
+}
+
+:root {
+  --forest-primary: #6EAF57;
+  --forest-dark: #5A9644;
+  --forest-deep: #467834;
+  --forest-light: #8BCB72;
+  --leaf: #C7E2A9;
+  --snow: #F7F8F3;
+  --snow-soft: #EFF3E8;
+  --text-dark: #1C2B14;
+  --text-muted: #5A7A4A;
+  --hero-gradient: linear-gradient(135deg, #355A28 0%, #5A9644 48%, #9BCB84 100%);
+  color: var(--text-dark);
+  background: var(--snow);
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: linear-gradient(180deg, #fbfbf8 0%, #f4f5ef 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-gradient {
+  background: var(--hero-gradient);
+}

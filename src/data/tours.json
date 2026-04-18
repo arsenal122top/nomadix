@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Ala-Archa Alpine Escape",
+      "ru": "Альпийский отдых в Ала-Арче"
+    },
+    "description": {
+      "en": "A polished one-day mountain experience near Bishkek with guided viewpoints and seamless transfers.",
+      "ru": "Продуманный однодневный горный тур рядом с Бишкеком: видовые точки, гид и удобный трансфер."
+    },
+    "location": "Ala-Archa",
+    "company": "Nomad Horizon",
+    "price": 85,
+    "duration": 1,
+    "rating": 4.8,
+    "includesGuide": true,
+    "type": "mountains",
+    "badge": "bestSeller",
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Issyk-Kul Signature Shores",
+      "ru": "Побережье Иссык-Куля Signature"
+    },
+    "description": {
+      "en": "A refined lakeside journey with canyon stops, local cuisine, and boutique overnight stays.",
+      "ru": "Элегантное путешествие к Иссык-Кулю с каньонами, локальной кухней и бутик-ночевками."
+    },
+    "location": "Issyk-Kul",
+    "company": "Silk Lake Travel",
+    "price": 195,
+    "duration": 3,
+    "rating": 4.9,
+    "includesGuide": true,
+    "type": "lakes",
+    "badge": "popular",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 3,
+    "title": {
+      "en": "Son-Kul Yurt Retreat",
+      "ru": "Юртовый ретрит на Сон-Куле"
+    },
+    "description": {
+      "en": "Sleep by the lake, ride through high pastures, and unwind in a cinematic nomadic setting.",
+      "ru": "Ночевка у озера, конные прогулки по высокогорным пастбищам и атмосферный кочевой опыт."
+    },
+    "location": "Son-Kul",
+    "company": "Eco Steppe Co.",
+    "price": 230,
+    "duration": 4,
+    "rating": 5,
+    "includesGuide": true,
+    "type": "eco",
+    "badge": "bestSeller",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 4,
+    "title": {
+      "en": "Jyrgalan Valley Discovery",
+      "ru": "Открытие долины Жыргалан"
+    },
+    "description": {
+      "en": "A quiet two-day valley immersion for hikers who want raw scenery and a calm pace.",
+      "ru": "Спокойное двухдневное погружение в долину для тех, кто любит природу и размеренный ритм."
+    },
+    "location": "Jyrgalan",
+    "company": "Nomad Horizon",
+    "price": 145,
+    "duration": 2,
+    "rating": 4.7,
+    "includesGuide": true,
+    "type": "mountains",
+    "badge": "popular",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 5,
+    "title": {
+      "en": "Burana Cultural Loop",
+      "ru": "Культурный маршрут Бурана"
+    },
+    "description": {
+      "en": "An easy cultural day trip pairing heritage landmarks with open-steppe landscapes.",
+      "ru": "Легкий культурный однодневный тур с историческими местами и просторами степи."
+    },
+    "location": "Burana",
+    "company": "Silk Lake Travel",
+    "price": 60,
+    "duration": 1,
+    "rating": 4.5,
+    "includesGuide": true,
+    "type": "cultural",
+    "badge": "popular",
+    "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 6,
+    "title": {
+      "en": "Family Escape to Issyk-Kul",
+      "ru": "Семейный отдых на Иссык-Куле"
+    },
+    "description": {
+      "en": "A comfortable family-first itinerary with smooth travel times and scenic lake activities.",
+      "ru": "Комфортный семейный маршрут с удобным таймингом и красивыми активностями у озера."
+    },
+    "location": "Issyk-Kul",
+    "company": "Family Trails KG",
+    "price": 155,
+    "duration": 2,
+    "rating": 4.6,
+    "includesGuide": false,
+    "type": "lakes",
+    "badge": "popular",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80"
+  }
+]
